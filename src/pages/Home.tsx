@@ -1,11 +1,10 @@
-import React from 'react'
-import kate from '/kate.jpg'
+import Navbar from "../components/Navbar";
+import kate from "/kate.jpg";
 import facebook from "/fb.png";
 import instagram from "/insta.jpeg";
 import linkedin from "/linkedin.png";
 import tweet from "/tweetor.jpeg";
 import whatsapp from "/whatsapp.png";
-
 
 function Home() {
   return (
@@ -14,23 +13,7 @@ function Home() {
         <img src={kate} className="profile" alt="profile" />
         <h2>Catherine Onyango</h2>
         <h3>Front End Developer</h3>
-        <ul className="header">
-          <li>
-            <a href="/">Home</a>
-          </li>
-          <li>
-            <a href="">About</a>
-          </li>
-          <li>
-            <a href="/">Services</a>
-          </li>
-          <li>
-            <a href="/">Education</a>
-          </li>
-          <li>
-            <a href="/">Contact</a>{" "}
-          </li>
-        </ul>
+        <Navbar/>
       </div>
 
       <div className="content">
@@ -52,4 +35,4 @@ function Home() {
   );
 }
 
-export default Home
+export default Home;

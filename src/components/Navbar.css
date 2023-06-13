@@ -1,0 +1,23 @@
+.navbar{
+
+}
+.links li {
+  list-style-type: none;
+  padding: 10px;
+  margin: 20px;
+  background-color: rgb(255, 117, 202);
+  width: 250px;
+  height: 15px;
+  border-radius: 10px;
+  
+}
+.links li:hover{
+  font-size: 35px;
+  font-weight: bold;
+  color: rgb(250, 96, 255);
+}
+li a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
