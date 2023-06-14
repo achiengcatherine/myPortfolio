@@ -21,6 +21,7 @@ function App() {
         <Route path="/services"></Route>
         <Route path="/education"></Route>
         <Route path="/contact"></Route>
+        
       </Routes>
     </Router>
   );
