@@ -13,7 +13,7 @@ This is a portfolio website showcasing my projects and skills. It provides an ov
 ## Demo
 
 Below is a screenshots/gif to showcase its appearance and functionality.
-<img src="screenshot.png">
+<img src="public/Screenshot.png">
 
 ## Technologies Used
 
