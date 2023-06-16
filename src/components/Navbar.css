@@ -1,5 +1,6 @@
 .navbar .links :hover{
 color: rgb(214, 24, 167);
+font-size: 25px;
 }
 .links li {
   list-style-type: none;

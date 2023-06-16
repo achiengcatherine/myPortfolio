@@ -48,16 +48,21 @@ margin-top: 130px;
   font-size: 25px;
   font-weight: 400;
 }
-.content .btn{
-  width: 120px;
-  height: 30px;
-  font-size: 17px;
+.content p h2{
+  margin-bottom: 50px;
+}
+.content .resume{
+
+  padding: 8px;
+  font-size: 18px;
   color: rgb(226, 43, 156);
   background-color: rgb(253, 127, 236);
-  border: 1px solid rgb(247, 130, 208);
   border-radius: 11px;
+  text-decoration: none;
+  
+  
 }
-.content .btn:hover{
+.content .resume:hover{
   color: rgb(194, 6, 131);
   font-size: 20px;
   font-weight: bold;

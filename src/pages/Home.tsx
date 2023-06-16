@@ -23,18 +23,21 @@ function Home() {
           My Name is <b>Catherine Onyango</b>
           <h2>I Am A Front-End Developer</h2>
         </p>
-        <button className="btn">Hire Me</button>
+        <a href="Resume.pdf" className="resume">Hire Me</a>
+  
+
+
         <div className="info">
-          <Link to="/">
+          <Link to="https://www.linkedin.com/in/catherine-onyango-08101b220">
             <img src={linkedin} className="linkedin" alt="profile" />
           </Link>
-          <Link to="/">
+          <Link to="https://www.facebook.com/Kate Dolyne">
             <img src={facebook} className="fb" alt="profile" />
           </Link>
-          <Link to="/">
+          <Link to="https://www.instagram.com/_kate_dolyne">
             <img src={instagram} className="insta" alt="profile" />
           </Link>
-          <Link to="/">
+          <Link to="https:wa.me/+254791782631">
             <img src={whatsapp} className="whatsapp" alt="profile" />
           </Link>
           <Link to="/">
